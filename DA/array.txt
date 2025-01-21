@@ -1,0 +1,56 @@
+Arrays:-
+-array can store multiple values within a single variable
+-collection of items/values.
+-arrays can store homogenous values and heterogenous values.
+syntax:-[]
+
+methods in array:-
+push(),pop(),shift(),un shift(),reverse(),join(),concat()
+
+object:-
+-object is an entity which is used to store the values in the form of key&value pairs.
+-object is a physical entity which is having states(properties) and behaviors(method)
+
+syntax:- let obj = {};
+note:-object based language + OOPS
+
+ex:-
+let obj = {
+         name:"sam",
+         }
+
+JSON:-javascript object notation
+-it is used to transmit the data from client to server and server to client.
+syntax:-{
+          "key":"value"
+          }
+-for json no need to store it inside variable
+- both keys and values should be double quoted except numbers.
+methods of json:-
+1.JSON.stringfy():-it will convert javascript object into json object
+2.JSON.parse():-it will convert json object to javascript object
+web storages:-
+-it can store the data inside the browser.
+-upto 10mb of dat can be stored
+1.local  storages:-it is a permanent data storage.
+                  -it can store upto 10mb.
+                  methods:-
+                  1.localstorage.setitem("key", "value")
+                  2.localStorage.getItem("key")
+                  3.localStorage.removeItem("key")
+2.session storage:-it is a temporory data storage.
+                  -it can store upto 5mb of data.
+note:-
+
+Asynchronous:-making javascript to work multiple work simultaneously.
+1.setTimeout()
+2.setIntervel()
+3.Promise
+4.Async & await
+
+
+
+
+
+
+

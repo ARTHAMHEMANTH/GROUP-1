@@ -1,0 +1,32 @@
+functions:-
+-function can be reused for a n number of times.
+-function is a block of code used to perform specific task.
+
+syntax:function function_name(operational parameters)//function declaration
+       {
+         //statements
+       } 
+       function_name(arguments);//function calling
+note:-without calling the function,function cannot be executed
+types of functions:-
+1.named function
+2.anonymous  function:-function which does not have a name for declare.
+-anonymous function cannot be executed independently
+3.function expression
+4.immediate invoke function expression(IIFE):-once the function is created
+-iife can be executed for only one time
+5.Arrow function:-to concise the syntax of normal function
+syntax:-()->{};
+6.higher order function:-
+-higher order function is a function which accepts another function as value or argument to its parameter.
+7.callback function :-
+-callback function is a function which is passed as a value or arguments to another function
+-closure:-closure is a memory created when functions bundled together by giving accessibility to the innermost function to access the variables of the outermost function.
+                                                                
+
+Note:-current version of javascript-es14.
+es-ECMA script
+ECMA-european computer manufacturing association
+return statement:-
+-it will return either expression or variables to future use.
+implicit return:- returns without using a "return" key manually.

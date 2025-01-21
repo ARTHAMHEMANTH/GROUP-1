@@ -1,0 +1,81 @@
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data
+types. Explain with some examples.
+
+Datatypes:-
+- datatypes used to metion what kind of data used in the variable.
+
+- types of datatypes:-
+1.primitive datatype:- it can store single values.
+			- they are default.
+			-String  , number , Boolean , null ,undefined
+2.non-primitive datatype :- it can store multiple values.
+			- they are user defined.
+			- functions, arrays , objects
+
+1.string:- sequence of characters enclosed within double quotes / single quotes / backticks(``).
+Example:
+       let name = "John";  // String using double quotes
+       let greeting = 'Hello';  // String using single quotes
+       let message = `Welcome, ${name}!`;  // Template literals
+       console.log(typeof name);  // Output: string
+
+
+2.number :- it sotres all the number data types such as integer , float values etc...
+Example:
+       let age = 25;  // Integer
+       let price = 99.99;  // Floating-point number
+       console.log(typeof age);  // Output: number
+
+3.boolean :- true/false .
+Example:
+       let isAdult = true;
+       let hasLicense = false;
+       console.log(typeof isAdult);  // Output: boolean
+
+4.undefined :- any variable decalred but not intitialized.
+Example:
+       let x;
+       console.log(x);  // Output: undefined
+       console.log(typeof x);  // Output: undefined
+
+5.null :- empty of object.
+Example:
+       let y = null;
+       console.log(y);  // Output: null
+       console.log(typeof y);  // Output: object 
+Non primitive data types:
+
+Examples:
+Object:
+Used to store collections of key-value pairs.
+      let person = {
+      name: "Alice",
+      age: 30,
+      isAdmin: true
+      };
+      console.log(person.name);  // Output: Alice
+      console.log(typeof person);  // Output: object
+Array:
+A special type of object used to store an ordered list of values.
+      let colors = ["red", "green", "blue"];
+      console.log(colors[1]);  // Output: green
+      console.log(typeof colors);  // Output: object
+
+Function:
+A callable object that performs a specific task.
+      function greet() {
+    return "Hello!";
+}
+console.log(greet());  // Output: Hello!
+console.log(typeof greet);  // Output: function
+
+Date:
+A built-in object for handling dates and times.
+   let today = new Date();
+console.log(today);  // Outputs the current date and time
+console.log(typeof today);  // Output: object
+
+
+
+
+

@@ -1,0 +1,8 @@
+
+Asynchronous:-making javascript to work multiple work simultaneously.
+1.setTimeout():-it is a web api used to work multiple work simultaneously.
+2.setIntervel():-it is used to perfrom async operations
+3.Promise:-it is ana object which represents the eventual compilation or failures of asynchronous operations.
+syntax:- let p=new promise((resolve,reject)=>{});
+-for handling the promise we have instant methods
+4.Async & await
