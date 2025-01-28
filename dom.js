@@ -27,9 +27,29 @@
 // let ele = document.querySelector(".test");
 // console.log(ele);
 
-let ele = document.querySelectorAll(".test");
-[...ele].map(element=>{
-    console.log(element.innerText);
+// let ele = document.querySelectorAll(".test");
+// [...ele].map(element=>{
+//     console.log(element.innerText);
+// })
+
+// ! events
+
+// let btn = document.getElementById("btn");
+// btn.addEventListener("click",()=>{
+//     console.log("button clicked");
+// })
+
+//!
+let bgColor = document.querySelectorAll(".bgColor");
+[...bgColor].map((element)=>{
+    element.addEventListener("mouseover",()=>{
+        element.style.backgroundColor=element.innerText;
+    });
+        element.addEventListener("mouseleave",()=>{
+            element.style.backgroundColor="transparent";
+        
+    })
 })
+
 
 
