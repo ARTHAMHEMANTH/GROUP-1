@@ -1,0 +1,40 @@
+react ?
+-> javascript is having libraries and frameworks.
+
+libraries: it is a collection of codes.
+         -less set of rules.
+        -reactjs, jquery, ember etc......
+        - they used to develop small codes.
+
+frameworks :  it is a collection of libraries.
+           -they are having more set of rules
+            - angular, veujs, pebble,ets......
+            -used for ecart services.
+
+
+WHAT IS REACT?
+
+-raect is a javascript library to build rich user interface.
+-react is faster because of "VIRTUAL DOM".
+- react follows component based approach.
+- react follows unconditional data flow.
+- raect follows both client side rendering and server side rendering.
+
+- react was introduced in 2011 by facebook.
+- later it was made open-source in 2013
+- jordan walke
+- react is a free and platform independent.
+
+what is virtual DOM?
+-virtual DOM is a virtual repersentaion of ui which is kept in a memory and later synced with real DOM by using a library called "ReactDOM".
+
+WHAT IS RECONCILATION?
+
+- the process of updating theEarlDOM with the virtualDOM is called as Reconcilation.
+
+installationn of react application:
+-install node.js
+-install react appliction CLI{command line interface}.
+    - npm install create-react-app --globally
+-install react app with foldername
+    -npm init react-app myapp.
