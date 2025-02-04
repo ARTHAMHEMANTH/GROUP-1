@@ -38,3 +38,32 @@ installationn of react application:
     - npm install create-react-app --globally
 -install react app with foldername
     -npm init react-app myapp.
+
+
+
+*class component by default called as state component
+*this is similsr to javascript functions.
+*this component is a "stateless component" until react v16.8.
+
+03-02-25
+
+component composition:
+************************
+
+-multiple componets are combined together to make one single application
+
+note : every component must be created with capital letters.
+    ex: App.jsx/App.js.
+
+    -two components should not have a same name in the same directory.
+
+
+props:
+******
+- props is nothing but proprities.
+-it is used to share the information/data from one component to another component.
+-props can be passed string, number, boolean, array, object, function etc......
+
+note:
+rcc :react class component.
+r
