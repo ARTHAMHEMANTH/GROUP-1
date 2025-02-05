@@ -66,4 +66,16 @@ props:
 
 note:
 rcc :react class component.
-r
+rafec : for App.js
+
+props children:
+*******************
+- use d to share the informantion from one children to another children
+
+poprs drilling: prop is apssing through multiple child elements to print in last child element .
+props drilling is a pasiing a data down to  child components.
+
+state:
+******
+-state is an object which is used to store or isolate the data inside the components.
+-
