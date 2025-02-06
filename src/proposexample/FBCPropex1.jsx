@@ -51,4 +51,4 @@ const FBCPropex1 = (props) => {
 
     
 }
-export default FBCPropex1
+export default FBCPropex1;

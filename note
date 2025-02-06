@@ -78,4 +78,7 @@ props drilling is a pasiing a data down to  child components.
 state:
 ******
 -state is an object which is used to store or isolate the data inside the components.
--
+-state is mutable object.
+
+note:
+this keyword: "it will target the current object."

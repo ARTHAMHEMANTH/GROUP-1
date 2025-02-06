@@ -92,18 +92,33 @@
 // }
 // export default App;
 
-import React from "react";
-import PropsChildrenex from './proposexample/PropsChildrenex';
-import ChildProps from './proposexample/ChildProps';
+// import React from "react";
+// import PropsChildrenex from './proposexample/PropsChildrenex';
+// import ChildProps from './proposexample/ChildProps';
 
+// const App = () => {
+//     return(
+//         <div>
+//             <PropsChildrenex username="Hemanth" company="Amazon">
+//                 <h1>This data is passed as props children</h1>
+//                 <ChildProps />
+//             </PropsChildrenex>
+//         </div>
+//     )
+// }
+// export default App
+
+import React from 'react'
+// import CBCState from './stateex/CBCState'
+import FBCState from './stateex/FBCState'
 const App = () => {
-    return(
-        <div>
-            <PropsChildrenex username="Hemanth" company="Amazon">
-                <h1>This data is passed as props children</h1>
-                <ChildProps />
-            </PropsChildrenex>
-        </div>
-    )
+  return (
+    <div>
+      APP
+      {/* <CBCState /> */}
+      <FBCState />
+    </div>
+  )
 }
+
 export default App
