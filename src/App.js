@@ -172,13 +172,15 @@
 // export default App
 
 import React from 'react'
-import Exuseeffect from './hooks/Exuseeffect'
+// import Exuseeffect from './hooks/Exuseeffect'
+import Refexamples from './hooks/Refexamples'
 
 const App = () => {
   return (
     <div>
       <hr />
-      <Exuseeffect></Exuseeffect>
+      {/* <Exuseeffect></Exuseeffect> */}
+      <Refexamples></Refexamples>
     </div>
   )
 }
